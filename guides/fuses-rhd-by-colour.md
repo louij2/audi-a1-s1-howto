@@ -1,5 +1,7 @@
 # Fuses by colour on a right-hand-drive A1 / S1 (8X)
 
+**Applies to:** All right-hand-drive A1 / S1 8X. LHD cars use the same colours and numbers on the opposite sides.
+
 The dash fuse holders on the 8X are behind the end caps at **both ends of the dashboard**. Fuse charts online and
 in the owner's manual usually show a left-hand-drive car, and the rows are identified by the **colour of the
 fuse holder row** (black, brown, ...) rather than by position. On a right-hand-drive car the holders swap sides,

@@ -1,5 +1,7 @@
 # OpenHaldex and S1 Dash
 
+**Applies to:** S1 and A1 quattro (Haldex). S1 Dash also runs without a Haldex controller on any 8X with an aftermarket Android screen.
+
 ## OpenHaldex-C6
 
 An ESP32-C6 controller that sits on the Haldex coupling's CAN line and lets you pick the AWD behaviour

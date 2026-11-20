@@ -1,5 +1,7 @@
 # SimosTools setup for the S1 (Simos 18.1)
 
+**Applies to:** S1 (CWZA 2.0 TFSI, Simos 18.1). The gearing table is S1-only; the logging, Haldex and dongle notes also apply to other Simos 18 cars.
+
 [SimosTools](https://play.google.com/store/apps/details?id=com.app.simostools) logs and flashes Simos 18 ECUs
 through an ESP32 BLE-to-ISO-TP bridge dongle. It has no S1 in its vehicle list, so set these by hand.
 

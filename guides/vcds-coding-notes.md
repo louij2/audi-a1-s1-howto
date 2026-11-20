@@ -1,4 +1,6 @@
-# VCDS coding notes (S1 8X)
+# VCDS coding notes (A1 / S1 8X)
+
+**Applies to:** Headlight washer coding: any 8X with headlight washers (A1 and S1, same BCM family). Engine coding and P3019: S1 (CWZA, Simos 18) and other cars with an exhaust flap valve N321.
 
 Results from coding our own S1. **Before you change anything:** save an Auto-Scan, write down the full original
 coding of the module, and use the **Long Coding Helper** on the car (the label files for these modules can't be

@@ -1,7 +1,8 @@
-# Audi S1 / A1 (8X) how-to guides
+# Audi A1 / S1 (8X) how-to guides
 
-Practical guides for the Audi S1 and A1 (type 8X, 2010-2018), written from hands-on work on a right-hand-drive
-S1 quattro (CWZA 2.0 TFSI, 6-speed manual, Haldex gen 5).
+Practical guides for the Audi A1 and S1 (type 8X, 2010-2018), written from hands-on work on a right-hand-drive
+S1 quattro (CWZA 2.0 TFSI, 6-speed manual, Haldex gen 5). Most of the car is shared with the A1, so most guides apply
+to both: each guide starts with an **Applies to** line.
 
 Everything here is **our own write-up**: what we did, what we measured, what worked and what didn't. Where an
 official Audi procedure exists, the guide names the workshop manual and section so you can look it up

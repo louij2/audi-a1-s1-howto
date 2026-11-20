@@ -1,4 +1,6 @@
-# Heater fan not blowing: diagnosis (S1 / A1 8X with Climatronic)
+# Heater fan not blowing: diagnosis (A1 / S1 8X)
+
+**Applies to:** All A1 / S1 8X (3- and 5-door Sportback) with Climatronic. Manual A/C cars use the same fan V2 and final stage J126; only the control unit and its VCDS address differ.
 
 **Symptom:** the climate panel lights up and responds, the temperature changes, but no air comes out of the vents
 at any fan speed. In VCDS, address 08 (Auto HVAC, J255) holds **B10BE "Air Blower - Voltage Implausible"**.

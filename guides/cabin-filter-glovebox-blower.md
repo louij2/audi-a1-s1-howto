@@ -1,5 +1,7 @@
 # Cabin (pollen) filter, glove box, fan motor V2 and final stage J126 (A1 / S1 8X)
 
+**Applies to:** All A1 / S1 8X, LHD and RHD (the parts sit on the passenger side either way).
+
 ## Cabin filter: the glove box stays in
 
 The filter slides out of a slot under the passenger side of the dash. You don't need to remove the glove box.
