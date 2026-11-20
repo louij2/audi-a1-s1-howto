@@ -36,7 +36,9 @@ The filter slides out of a slot under the passenger side of the dash. You don't 
    extension and a universal joint.
 5. Pull the fan rearwards out of the housing. Hold it by the housing, **not the fan wheel** (it carries balance weights).
 
-## Fan final stage J126
+## Fan final stage J126 (Climatronic cars)
+
+Cars with manual heating/A/C have a series resistor with overheating fuse (N24) in roughly the same place instead.
 
 1. Fan motor out (above), cabin filter out.
 2. Unplug J126 and undo its bolt. **The heat sink can be hot** if the fan has just been running.
