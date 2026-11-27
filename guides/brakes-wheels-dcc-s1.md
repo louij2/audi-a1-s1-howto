@@ -46,6 +46,8 @@ off, each caliper lever sits no more than 1.5 mm from its stop, and both rear wh
 
 ## Brake fluid and bleeding
 
+![Brake bleed order and amounts: front left, front right, rear left, rear right, then the clutch](../diagrams/brake-bleed-order.svg)
+
 - **Fluid:** the manuals give no DOT number, only genuine Audi fluid per ETKA, always new, and nothing with
   mineral oil near it. Darker fluid with age is normal and says nothing about condition. Changes go by time (service schedule).
 - **Quantities to push through on a fluid change:** about 0.20 l at each front caliper, 0.30 l at each rear and
@@ -91,6 +93,8 @@ The Wheel/Tyre Guide lists these for the S1 (section 1.7, *Audi S1 type 8X*). Ev
 | Rear left level sender G76 renewed, or an alignment done | **Headlight basic setting**: address 55, headlight range control J431 |
 | Suspension parts renewed or refitted | Four-wheel alignment check. Most links, wheel bearing housings, track rods and subframes need one; the manual has a table (*Running gear*, Rep. gr. 44) |
 
+![Flowchart of the follow-up jobs after suspension or steering work: tighten at unladen ride height, alignment check if parts were renewed, G85 basic setting in address 44 if the geometry changed or the rack or column came out, then headlight basic setting in address 55 after an alignment or a new G76](../diagrams/after-suspension-work.svg)
+
 - The rear is adjustable: camber on an eccentric on the upper link, toe on one on the lower link (90° either way
   from centre). At the front, toe is on the track rods and camber is only centred by sliding the subframe.
 - Tighten suspension bushes and joints with the car at its **unladen ride height**, not hanging. Before you strip
@@ -104,6 +108,8 @@ The Wheel/Tyre Guide lists these for the S1 (section 1.7, *Audi S1 type 8X*). Ev
 - **J250**: damping control unit, behind the dash on the glove box side, on the powertrain CAN bus.
 - **N336 / N337** (front left / right) and **N338 / N339** (rear left / right): the damper adjustment valves.
 - **G76**: rear left level sender, between the rear subframe and lower link. It also feeds headlight range control J431.
+
+![DCC overview: J250 takes its inputs over the powertrain CAN bus, with Audi drive select tying in, and sets the current to damper valves N336/N337 at the front and N338/N339 at the rear; level sender G76 also feeds headlight range control J431](../diagrams/dcc-overview.svg)
 
 **How it works:** each damper has an electrically controlled valve built in. J250 changes the current to each
 valve and with it how firm the damper is. Each valve has a 2-pin plug wired to J250. The DCC diagram shows no

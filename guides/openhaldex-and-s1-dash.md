@@ -2,6 +2,8 @@
 
 **Applies to:** S1 and A1 quattro (Haldex). S1 Dash also runs without a Haldex controller on any 8X with an aftermarket Android screen.
 
+![OpenHaldex-C6 sits on the Haldex coupling's CAN line and takes mode picks from a phone browser; S1 Dash gets Haldex data and switches modes through the OpenHaldex HTTP API, and gets engine data from the OBD port through the BLE bridge dongle SimosTools also uses](../diagrams/openhaldex-s1-dash.svg)
+
 ## OpenHaldex-C6
 
 An ESP32-C6 controller that sits on the Haldex coupling's CAN line and lets you pick the AWD behaviour

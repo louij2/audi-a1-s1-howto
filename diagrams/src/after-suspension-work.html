@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>After suspension or steering work</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --color-paper:   #f5f5f5;
+      --color-ink:     #2d3142;
+      --color-muted:   #4f5d75;
+      --color-accent:  #bf4520;
+      --font-sans:     'Geist', system-ui, sans-serif;
+      --font-serif:    'Instrument Serif', 'Noto Serif', serif;
+      --font-mono:     'Geist Mono', ui-monospace, monospace;
+    }
+    body {
+      font-family: var(--font-sans);
+      background: var(--color-paper);
+      color: var(--color-ink);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 2rem;
+    }
+    .frame { max-width: 1200px; width: 100%; min-width: 0; }
+    .diagram-container { width: 100%; overflow-x: auto; }
+    .eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--color-muted);
+      margin-bottom: 0.5rem;
+    }
+    h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(1.5rem, 2.4vw + 0.75rem, 2rem);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--color-ink);
+      margin-bottom: 1.5rem;
+    }
+    svg { width: 100%; min-width: 960px; display: block; }
+    @media print {
+      .diagram-container { overflow-x: visible; }
+      svg { min-width: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="frame">
+    <p class="eyebrow">Flowchart · S1 running gear</p>
+    <h1>After suspension or steering work</h1>
+    <div class="diagram-container">
+      <svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="after-suspension-work-title after-suspension-work-desc">
+        <title id="after-suspension-work-title">After suspension or steering work</title>
+        <desc id="after-suspension-work-desc">Flowchart of the follow-up jobs after suspension or steering work: tighten at unladen ride height, an alignment check if parts were renewed, the G85 basic setting in address 44 if the geometry changed or the rack or column came out, and the headlight basic setting in address 55 after an alignment or a new G76.</desc>
+        <defs>
+          <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+          <marker id="arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#bf4520"/></marker>
+          <marker id="arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+        </defs>
+        <rect width="100%" height="100%" fill="#f5f5f5"/>
+        <line x1="280" y1="80" x2="280" y2="100" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <line x1="280" y1="148" x2="280" y2="168" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <line x1="280" y1="240" x2="280" y2="272" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <line x1="280" y1="344" x2="280" y2="376" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <line x1="280" y1="448" x2="280" y2="480" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <line x1="400" y1="204" x2="520" y2="204" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <line x1="400" y1="308" x2="520" y2="308" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <line x1="400" y1="412" x2="520" y2="412" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <path d="M 660,232 V 248 Q 660,256 652,256 H 286" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <path d="M 660,336 V 352 Q 660,360 652,360 H 286" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <path d="M 660,440 V 456 Q 660,464 652,464 H 286" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <rect x="444" y="184" width="32" height="12" rx="2" fill="#f5f5f5"/>
+        <text x="460" y="193" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">YES</text>
+        <rect x="444" y="288" width="32" height="12" rx="2" fill="#f5f5f5"/>
+        <text x="460" y="297" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">YES</text>
+        <rect x="444" y="392" width="32" height="12" rx="2" fill="#f5f5f5"/>
+        <text x="460" y="401" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">YES</text>
+        <rect x="244" y="250" width="24" height="12" rx="2" fill="#f5f5f5"/>
+        <text x="256" y="259" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">NO</text>
+        <rect x="244" y="354" width="24" height="12" rx="2" fill="#f5f5f5"/>
+        <text x="256" y="363" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">NO</text>
+        <rect x="244" y="458" width="24" height="12" rx="2" fill="#f5f5f5"/>
+        <text x="256" y="467" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">NO</text>
+        <circle cx="280" cy="256" r="4" fill="#2d3142"/>
+        <circle cx="280" cy="360" r="4" fill="#2d3142"/>
+        <circle cx="280" cy="464" r="4" fill="#2d3142"/>
+        <rect x="160" y="40" width="240" height="40" rx="20" fill="#f5f5f5"/>
+        <rect x="160" y="40" width="240" height="40" rx="20" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1"/>
+        <text x="280" y="64" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Suspension or steering job</text>
+        <rect x="160" y="100" width="240" height="48" rx="6" fill="#f5f5f5"/>
+        <rect x="160" y="100" width="240" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <text x="280" y="121" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Tighten bushes and joints</text>
+        <text x="280" y="137" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">at unladen ride height, not hanging</text>
+        <polygon points="280,168 400,204 280,240 160,204" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <text x="280" y="201" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Suspension parts</text>
+        <text x="280" y="215" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">renewed or refitted?</text>
+        <rect x="520" y="176" width="280" height="56" rx="6" fill="#f5f5f5"/>
+        <rect x="520" y="176" width="280" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <text x="660" y="201" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Four-wheel alignment check</text>
+        <text x="660" y="217" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">table: Running gear, Rep. gr. 44</text>
+        <polygon points="280,272 400,308 280,344 160,308" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <text x="280" y="305" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Geometry changed, or</text>
+        <text x="280" y="319" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">rack or column out?</text>
+        <rect x="520" y="280" width="280" height="56" rx="6" fill="#f5f5f5"/>
+        <rect x="520" y="280" width="280" height="56" rx="6" fill="rgba(191,69,32,0.08)" stroke="#bf4520" stroke-width="1"/>
+        <text x="660" y="305" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Basic setting of G85</text>
+        <text x="660" y="321" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">steering angle sender, address 44</text>
+        <polygon points="280,376 400,412 280,448 160,412" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <text x="280" y="409" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Alignment done, or</text>
+        <text x="280" y="423" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">G76 renewed?</text>
+        <rect x="520" y="384" width="280" height="56" rx="6" fill="#f5f5f5"/>
+        <rect x="520" y="384" width="280" height="56" rx="6" fill="rgba(191,69,32,0.08)" stroke="#bf4520" stroke-width="1"/>
+        <text x="660" y="409" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Headlight basic setting</text>
+        <text x="660" y="425" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">address 55, range control J431</text>
+        <rect x="200" y="480" width="160" height="40" rx="20" fill="#f5f5f5"/>
+        <rect x="200" y="480" width="160" height="40" rx="20" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1"/>
+        <text x="280" y="504" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Done</text>
+        <line x1="40" y1="540" x2="920" y2="540" stroke="rgba(45,49,66,0.10)" stroke-width="0.8"/>
+        <text x="40" y="556" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.18em">LEGEND</text>
+        <rect x="40" y="572" width="24" height="10" rx="5" fill="rgba(45,49,66,0.03)" stroke="rgba(45,49,66,0.30)" stroke-width="1"/>
+        <text x="72" y="580" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Start / end</text>
+        <rect x="160" y="572" width="14" height="10" rx="2" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <text x="180" y="580" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Step</text>
+        <polygon points="248,577 260,571 272,577 260,583" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <text x="280" y="580" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Question</text>
+        <circle cx="356" cy="577" r="4" fill="#2d3142"/>
+        <text x="368" y="580" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Paths rejoin</text>
+        <rect x="464" y="572" width="14" height="10" rx="2" fill="rgba(191,69,32,0.08)" stroke="#bf4520" stroke-width="1"/>
+        <text x="484" y="580" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Diagnostic tester guided function</text>
+      </svg>
+    </div>
+  </div>
+</body>
+</html>

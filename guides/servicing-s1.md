@@ -70,6 +70,8 @@ both at the same interval. The clutch chapter's cross-reference gives that as ev
 a new car the first change can be at 3 years, depending on market. The fluid spec is only "genuine Audi brake
 fluid, see the parts catalogue". Never reuse it, and keep it off the paint.
 
+![Bleed order: front left 0.20 l, front right 0.20 l, rear left 0.30 l, rear right 0.30 l, then the clutch slave cylinder 0.15 l; 1.15 l in total](../diagrams/brake-bleed-order.svg)
+
 Roughly how much to push through each bleed point on a pressure bleeder (if a caliper has two bleeders, add them up):
 
 | Order | Bleed point | Fluid out |
@@ -99,6 +101,8 @@ fluid; *0A8 four-wheel drive*, Rep. gr. 30, bleeding the clutch.)
   *Servicing 2.0 TFSI EA888 Gen. III*, Rep. gr. 19.)
 
 ## Gearbox, bevel box, rear final drive and Haldex
+
+![Driveline from gearbox to rear diff with its four separate oil fills](../diagrams/s1-driveline.svg)
 
 | Unit | Capacity | Oil / level |
 |---|---|---|

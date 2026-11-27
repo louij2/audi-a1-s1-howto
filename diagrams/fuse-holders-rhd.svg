@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fuse-holders-rhd-title fuse-holders-rhd-desc" id="fuse-holders-rhd-root">
+        <title id="fuse-holders-rhd-title">Heater and A/C fuses on a right-hand-drive A1 / S1</title>
+        <desc id="fuse-holders-rhd-desc">The two dash-end fuse holders of an RHD car: the driver's end has the 40 A blower fuse in black row position 2 (holder C) and a 10 A heating and A/C fuse in brown row position 11, and the passenger end has the 10 A control panel fuse in brown row position 2; on an LHD car the same rows and numbers sit at the opposite ends.</desc>
+        <defs>
+      <style>#fuse-holders-rhd-root { --color-paper:   #f5f5f5;   
+      --color-ink:     #2d3142;   
+      --color-muted:   #4f5d75;   
+      --color-accent:  #bf4520;   
+      --font-sans:     'Geist', system-ui, sans-serif;
+      --font-serif:    'Instrument Serif', 'Noto Serif', 'Noto Serif KR', serif;
+      --font-mono:     'Geist Mono', ui-monospace, monospace; }
+      #fuse-holders-rhd-root { font-family: var(--font-sans); color: var(--color-ink); }
+      #fuse-holders-rhd-root .diagram-container { width: 100%; overflow-x: auto; }
+      @media print {
+#fuse-holders-rhd-root .diagram-container { overflow-x: visible; }
+}</style>
+          <marker id="fuse-holders-rhd-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+          <marker id="fuse-holders-rhd-arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#bf4520"/></marker>
+          <marker id="fuse-holders-rhd-arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+        </defs>
+
+        <rect width="100%" height="100%" fill="#f5f5f5"/>
+
+        <!-- Level 1: dashboard -->
+        <rect x="40" y="72" width="880" height="360" rx="8" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.015" stroke-opacity="0.30"/>
+        <!-- Level 2: dash ends -->
+        <rect x="72" y="112" width="320" height="288" rx="8" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.025" stroke-opacity="0.45"/>
+        <rect x="424" y="112" width="464" height="288" rx="8" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.025" stroke-opacity="0.45"/>
+        <!-- Level 3: rows -->
+        <rect x="104" y="148" width="256" height="96" rx="8" fill="#2d3142" stroke="#4f5d75" stroke-width="1" fill-opacity="0.03"/>
+        <rect x="104" y="268" width="256" height="96" rx="8" fill="none" stroke="#2d3142" stroke-width="1" stroke-dasharray="4,3" stroke-opacity="0.20"/>
+        <rect x="456" y="148" width="400" height="96" rx="8" fill="#2d3142" stroke="#4f5d75" stroke-width="1" fill-opacity="0.03"/>
+        <rect x="456" y="268" width="400" height="96" rx="8" fill="#2d3142" stroke="#4f5d75" stroke-width="1" fill-opacity="0.03"/>
+
+        <!-- Level labels -->
+        <rect x="56" y="64" width="212" height="16" fill="#f5f5f5"/>
+        <text x="64" y="75" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">DASHBOARD · RHD · FROM THE SEATS</text>
+        <rect x="88" y="104" width="176" height="16" fill="#f5f5f5"/>
+        <text x="96" y="115" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">PASSENGER END · LEFT ON RHD</text>
+        <rect x="440" y="104" width="172" height="16" fill="#f5f5f5"/>
+        <text x="448" y="115" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">DRIVER'S END · RIGHT ON RHD</text>
+        <rect x="116" y="140" width="96" height="16" fill="#f5f5f5"/>
+        <rect x="124" y="144" width="8" height="8" rx="1" fill="#9c6b50"/>
+        <text x="138" y="151" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">BROWN ROW</text>
+        <rect x="468" y="140" width="160" height="16" fill="#f5f5f5"/>
+        <rect x="476" y="144" width="8" height="8" rx="1" fill="#2d3142"/>
+        <text x="490" y="151" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">BLACK ROW · HOLDER C</text>
+        <rect x="468" y="260" width="96" height="16" fill="#f5f5f5"/>
+        <rect x="476" y="264" width="8" height="8" rx="1" fill="#9c6b50"/>
+        <text x="490" y="271" fill="#2d3142" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">BROWN ROW</text>
+        <text x="232" y="320" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.14em">OTHER ROWS NOT SHOWN</text>
+
+        <!-- Level 4: the fuses we checked -->
+        <rect x="128" y="172" width="208" height="56" rx="6" fill="#f5f5f5"/>
+        <rect x="128" y="172" width="208" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <rect x="136" y="180" width="44" height="12" rx="2" fill="none" stroke="#2d3142" stroke-width="0.8" stroke-opacity="0.40"/>
+        <text x="158" y="189" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">FUSE 2</text>
+        <text x="232" y="206" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">10 A · control panel</text>
+        <text x="232" y="220" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">A/C / heater panel</text>
+        <rect x="480" y="172" width="352" height="56" rx="6" fill="#f5f5f5"/>
+        <rect x="480" y="172" width="352" height="56" rx="6" fill="#bf4520" stroke="#bf4520" stroke-width="1" fill-opacity="0.08"/>
+        <rect x="488" y="180" width="44" height="12" rx="2" fill="none" stroke="#bf4520" stroke-width="0.8" stroke-opacity="0.50"/>
+        <text x="510" y="189" fill="#bf4520" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">FUSE 2</text>
+        <text x="656" y="206" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">40 A · fresh-air blower</text>
+        <text x="656" y="220" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">J126 · V2 · J65 · J59</text>
+        <rect x="480" y="292" width="352" height="56" rx="6" fill="#f5f5f5"/>
+        <rect x="480" y="292" width="352" height="56" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <rect x="488" y="300" width="44" height="12" rx="2" fill="none" stroke="#2d3142" stroke-width="0.8" stroke-opacity="0.40"/>
+        <text x="510" y="309" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">FUSE 11</text>
+        <text x="656" y="326" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">10 A · heating / A/C</text>
+        <text x="656" y="340" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">terminal 30 · J255</text>
+
+        <!-- Callout -->
+        <text x="40" y="476" fill="#2d3142" font-size="14" font-style="italic" font-family="'Instrument Serif', serif">Go by row colour and fuse number,</text>
+        <text x="40" y="496" fill="#2d3142" font-size="14" font-style="italic" font-family="'Instrument Serif', serif">never by left or right.</text>
+
+        <!-- LHD mirror hint -->
+        <text x="536" y="464" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">LHD CAR · SAME ROWS, ENDS MIRRORED</text>
+        <rect x="536" y="476" width="384" height="48" rx="8" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.015" stroke-opacity="0.30"/>
+        <rect x="548" y="484" width="176" height="32" rx="6" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.025" stroke-opacity="0.45"/>
+        <text x="636" y="504" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Driver's end</text>
+        <rect x="732" y="484" width="176" height="32" rx="6" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.025" stroke-opacity="0.45"/>
+        <text x="820" y="504" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Passenger end</text>
+      </svg>

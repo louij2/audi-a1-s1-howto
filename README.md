@@ -11,6 +11,11 @@ The guides use facts (sizes, capacities, limits, part codes, locations) learnt f
 always written up our own way. Where the manuals leave something to the parts catalogue or your VIN, the guides
 say so rather than guess.
 
+Diagrams sit inside the guides, next to the text they explain. They are our own drawings of flows, decisions and
+how parts connect. None of them is traced from an Audi figure or wiring diagram. The SVGs are in
+[`diagrams/`](diagrams/) and their editable sources in `diagrams/src/`. They were made with
+[diagram-design](https://github.com/cathrynlavery/diagram-design).
+
 | Guide | What it covers |
 |---|---|
 | [Heater fan not blowing: diagnosis](guides/heater-fan-diagnosis.md) | Fault B10BE, VCDS measuring values, the blower fuse, the terminal-X check, J126 vs. motor |
