@@ -9,7 +9,7 @@ An ESP32-C6 controller that sits on the Haldex coupling's CAN line and lets you 
 vehicle geometry, OTA updates) is [louij2/OpenHaldex-C6](https://github.com/louij2/OpenHaldex-C6). The original
 project is Forbes Automotive's.
 
-- The S1 8X has a **generation 5 Haldex** (on the 0AY/0BR rear drive). Check which generation the controller has
+- The S1 8X has a **generation 5 Haldex** (on the 0BR rear drive; the A1 quattro has gen 4 on the same 0BR). Check which generation the controller has
   detected on the live device instead of assuming.
 - Haldex data can also be logged with SimosTools: see [SimosTools setup](simostools-s1.md).
 

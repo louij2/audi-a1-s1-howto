@@ -35,7 +35,7 @@ Body values (only used by the accelerometer power estimate): tyre 225/35 R18 = 0
 - If SimosTools connects to the dongle but says **"No ECU reply"**, try another dongle before blaming the car. One of
   our older dongles gave exactly that in the S1 while a freshly flashed one worked fine.
 - You can build a spare from a plain ESP32 board with the public BridgeLEG firmware
-  ([Switchleg1/esp32-isotp-ble-bridge](https://github.com/Switchleg1/esp32-isotp-ble-bridge)). Boards without an
-  auto-reset circuit need BOOT held while you plug them in to enter download mode. SimosTools may update the
+  ([Switchleg1/esp32-isotp-ble-bridge](https://github.com/Switchleg1/esp32-isotp-ble-bridge)). To get a board
+  with no auto-reset circuit into download mode, hold its BOOT button as you plug it in. SimosTools may update the
   bridge firmware itself on first use.
 - Back up a dongle's existing flash (`esptool read_flash`) before you overwrite it.
