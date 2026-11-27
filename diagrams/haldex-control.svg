@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 476" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="haldex-control-title haldex-control-desc" id="haldex-control-root">
+        <title id="haldex-control-title">Haldex gen 5 control: J492, its inputs and its power</title>
+        <desc id="haldex-control-desc">J492 gets engine ECU J623 and ABS/ESP J104 data over powertrain CAN through gateway J533, runs pump V181 whose pressure closes the coupling clutch, and is powered from fuse 4 (terminal 30) and fuse 1 (terminal 15) in fuse holder C with its earth at the left C-pillar.</desc>
+        <defs>
+      <style>#haldex-control-root { --color-paper:   #f5f5f5;
+      --color-ink:     #2d3142;
+      --color-muted:   #4f5d75;
+      --color-accent:  #bf4520;
+      --font-sans:     'Geist', system-ui, sans-serif;
+      --font-serif:    'Instrument Serif', 'Noto Serif', serif;
+      --font-mono:     'Geist Mono', ui-monospace, monospace; }
+      #haldex-control-root { font-family: var(--font-sans); color: var(--color-ink); }
+      #haldex-control-root .diagram-container { width: 100%; overflow-x: auto; }
+      @media print {
+#haldex-control-root .diagram-container { overflow-x: visible; }
+}</style>
+<marker id="haldex-control-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+<marker id="haldex-control-arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#bf4520"/></marker>
+<marker id="haldex-control-arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+<marker id="haldex-control-arrow-start" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto-start-reverse"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+<marker id="haldex-control-arrow-link-start" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto-start-reverse"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+        </defs>
+        <rect width="100%" height="100%" fill="#f5f5f5"/>
+<rect x="24" y="48" width="568" height="200" rx="8" fill="#2d3142" stroke="#2d3142" stroke-width="0.8" fill-opacity="0.02" stroke-opacity="0.10"/>
+<rect x="36" y="52" width="88" height="12" rx="2" fill="#f5f5f5"/>
+<text x="80" y="61" fill="#5a6580" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.14em">POWERTRAIN CAN</text>
+<path d="M 184,104 H 200 Q 208,104 208,112 V 136 Q 208,144 216,144 H 232" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#haldex-control-arrow)"/>
+<path d="M 184,200 H 200 Q 208,200 208,192 V 168 Q 208,160 216,160 H 232" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#haldex-control-arrow)"/>
+<path d="M 360,152 H 400" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#haldex-control-arrow)"/>
+<path d="M 576,152 H 624" fill="none" stroke="#bf4520" stroke-width="1.4" marker-end="url(#haldex-control-arrow-accent)"/>
+<path d="M 736,152 H 776" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#haldex-control-arrow)"/>
+<path d="M 304,320 V 292 Q 304,284 312,284 H 436 Q 444,284 444,276 V 192" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#haldex-control-arrow)"/>
+<path d="M 488,320 V 192" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#haldex-control-arrow)"/>
+<path d="M 532,192 V 276 Q 532,284 540,284 H 664 Q 672,284 672,292 V 320" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#haldex-control-arrow)"/>
+<rect x="40" y="80" width="144" height="48" rx="6" fill="#f5f5f5"/>
+<rect x="40" y="80" width="144" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="112" y="108" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">J623 engine ECU</text>
+<rect x="40" y="176" width="144" height="48" rx="6" fill="#f5f5f5"/>
+<rect x="40" y="176" width="144" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="112" y="204" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">J104 ABS / ESP</text>
+<rect x="232" y="128" width="128" height="48" rx="6" fill="#f5f5f5"/>
+<rect x="232" y="128" width="128" height="48" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="296" y="156" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">J533 gateway</text>
+<rect x="400" y="112" width="176" height="80" rx="6" fill="#f5f5f5"/>
+<rect x="400" y="112" width="176" height="80" rx="6" fill="#bf4520" stroke="#bf4520" stroke-width="1" fill-opacity="0.08"/>
+<text x="488" y="143" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">J492 control unit</text>
+<text x="488" y="159" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">4WD electronics</text>
+<text x="488" y="172" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">address 22</text>
+<rect x="624" y="120" width="112" height="64" rx="6" fill="#f5f5f5"/>
+<rect x="624" y="120" width="112" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="680" y="150" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">V181 pump</text>
+<text x="680" y="166" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">electric</text>
+<rect x="776" y="120" width="144" height="64" rx="6" fill="#f5f5f5"/>
+<rect x="776" y="120" width="144" height="64" rx="6" fill="#2d3142" stroke="#4f5d75" stroke-width="1" fill-opacity="0.05"/>
+<text x="848" y="150" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Coupling clutch</text>
+<text x="848" y="166" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">closed by pressure</text>
+<rect x="224" y="320" width="160" height="64" rx="6" fill="#f5f5f5"/>
+<rect x="224" y="320" width="160" height="64" rx="6" fill="#4f5d75" stroke="#5a6580" stroke-width="1" fill-opacity="0.10"/>
+<text x="304" y="350" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Fuse 4, holder C</text>
+<text x="304" y="366" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">terminal 30 (permanent)</text>
+<rect x="408" y="320" width="160" height="64" rx="6" fill="#f5f5f5"/>
+<rect x="408" y="320" width="160" height="64" rx="6" fill="#4f5d75" stroke="#5a6580" stroke-width="1" fill-opacity="0.10"/>
+<text x="488" y="350" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Fuse 1, holder C</text>
+<text x="488" y="366" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">terminal 15 (ignition)</text>
+<rect x="592" y="320" width="160" height="64" rx="6" fill="#f5f5f5"/>
+<rect x="592" y="320" width="160" height="64" rx="6" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.03" stroke-opacity="0.30"/>
+<text x="672" y="350" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Earth point</text>
+<text x="672" y="366" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">left C-pillar</text>
+<line x1="40" y1="416" x2="920" y2="416" stroke="#2d3142" stroke-width="0.8" stroke-opacity="0.10"/>
+<text x="40" y="432" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.18em">LEGEND</text>
+<rect x="40" y="444" width="14" height="10" rx="2" fill="#bf4520" stroke="#bf4520" stroke-width="1" fill-opacity="0.08"/>
+<text x="60" y="452" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">J492, the 4WD control unit</text>
+<rect x="212" y="444" width="14" height="10" rx="2" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.02" stroke-opacity="0.30"/>
+<text x="232" y="452" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">On powertrain CAN</text>
+<rect x="340" y="444" width="14" height="10" rx="2" fill="#4f5d75" stroke="#5a6580" stroke-width="1" fill-opacity="0.10"/>
+<text x="360" y="452" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Power feed</text>
+<rect x="440" y="444" width="14" height="10" rx="2" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.03" stroke-opacity="0.30"/>
+<text x="460" y="452" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Earth</text>
+<line x1="516" y1="449" x2="544" y2="449" stroke="#bf4520" stroke-width="1.2" marker-end="url(#haldex-control-arrow-accent)"/>
+<text x="552" y="452" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Pump drive</text>
+<line x1="628" y1="449" x2="656" y2="449" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#haldex-control-arrow)"/>
+<text x="664" y="452" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Data / power</text>
+      </svg>

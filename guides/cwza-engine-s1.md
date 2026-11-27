@@ -32,6 +32,9 @@ shows it too.
   set of port injectors (N532-N535) and a low-pressure fuel sender **G410**. The engine manual treats port injection as one possible version, so lift
   the engine cover and look for the second rail if you need to be sure. The port injectors and G410 sit on
   top of the engine along the intake manifold. The high-pressure pump uses the fuel metering valve **N290** (not N276).
+
+  ![Fuel from the tank delivery unit (pump G6, controlled by J538) splits: one low-pressure feed goes to the port-injection rail with sender G410 and injectors N532-N535, the other to the high-pressure pump with metering valve N290, which feeds the direct-injection rail with sender G247 and injectors N30-N33](../diagrams/cwza-fuel-system.svg)
+
 - **Cam timing on both camshafts.** Inlet control valve **N205** and exhaust control valve **N318** sit in the top
   timing chain cover. The camshaft housing also carries **eight camshaft adjustment actuators** (F366-F373, two
   per cylinder). These are the valve-lift switching actuators on the exhaust camshaft (Audi valvelift system); the
@@ -114,6 +117,8 @@ until the piston is fully out, and count the teeth showing. **Six or fewer: chai
 function "chain elongation adaption diagnosis" and clear it). **Seven or more: new chain.**
 The same adaption is also needed after replacing G28, G40, the chain, the camshafts or the head. Use a new sealing
 plug. *Servicing ... gen III*, Rep. gr. 15, Chain drive, "Checking timing chain".
+
+![Timing chain check: remove the sealing plug, turn the crank forwards only until the tensioner piston is fully out, count the teeth; six or fewer is OK (adapt and clear any stored chain fault), seven or more means a new chain then the adaption, and always a new sealing plug](../diagrams/timing-chain-check.svg)
 
 ## Sources
 

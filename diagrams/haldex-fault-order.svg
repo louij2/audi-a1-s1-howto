@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 388" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="haldex-fault-order-title haldex-fault-order-desc" id="haldex-fault-order-root">
+        <title id="haldex-fault-order-title">Order of work for S1 4WD faults</title>
+        <desc id="haldex-fault-order-desc">Five steps for a 4WD fault: read faults in 22 and in the engine, ABS/ESP and gateway units, run the output test, check the holder C fuses, C-pillar earth and plugs, check the coupling oil level warm, and after a new pump or J492 run the basic setting or replacement routine.</desc>
+        <defs>
+      <style>#haldex-fault-order-root { --color-paper:   #f5f5f5;
+      --color-ink:     #2d3142;
+      --color-muted:   #4f5d75;
+      --color-accent:  #bf4520;
+      --font-sans:     'Geist', system-ui, sans-serif;
+      --font-serif:    'Instrument Serif', 'Noto Serif', serif;
+      --font-mono:     'Geist Mono', ui-monospace, monospace; }
+      #haldex-fault-order-root { font-family: var(--font-sans); color: var(--color-ink); }
+      #haldex-fault-order-root .diagram-container { width: 100%; overflow-x: auto; }
+      @media print {
+#haldex-fault-order-root .diagram-container { overflow-x: visible; }
+}</style>
+<marker id="haldex-fault-order-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+<marker id="haldex-fault-order-arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#bf4520"/></marker>
+<marker id="haldex-fault-order-arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+<marker id="haldex-fault-order-arrow-start" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto-start-reverse"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+<marker id="haldex-fault-order-arrow-link-start" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto-start-reverse"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+        </defs>
+        <rect width="100%" height="100%" fill="#f5f5f5"/>
+<g aria-hidden="true">
+<rect x="40" y="132" width="176" height="48" fill="#bf4520" data-role="rail" data-step="read" data-index="1" data-focal="true" fill-opacity="0.08"/>
+<line x1="40" y1="132" x2="216" y2="132" stroke="#bf4520" stroke-width="1"/>
+<line x1="40" y1="180" x2="216" y2="180" stroke="#bf4520" stroke-width="1"/>
+<rect x="216" y="132" width="176" height="48" fill="#2d3142" data-role="rail" data-step="output" data-index="2" fill-opacity="0.09"/>
+<rect x="392" y="132" width="176" height="48" fill="#2d3142" data-role="rail" data-step="wiring" data-index="3" fill-opacity="0.05"/>
+<rect x="568" y="132" width="176" height="48" fill="#2d3142" data-role="rail" data-step="oil" data-index="4" fill-opacity="0.09"/>
+<rect x="744" y="132" width="176" height="48" fill="#2d3142" data-role="rail" data-step="reset" data-index="5" fill-opacity="0.05"/>
+</g>
+<g font-family="'Geist Mono', ui-monospace, monospace" font-size="8" font-weight="600" letter-spacing="0.14em" text-anchor="middle">
+<text x="128" y="56" fill="#bf4520" data-role="number" data-step="read">01</text><line x1="128" y1="76" x2="128" y2="112" stroke="#bf4520"/>
+<text x="304" y="56" fill="#4f5d75" data-role="number" data-step="output">02</text><line x1="304" y1="76" x2="304" y2="112" stroke="#bfc0c0"/>
+<text x="480" y="56" fill="#4f5d75" data-role="number" data-step="wiring">03</text><line x1="480" y1="76" x2="480" y2="112" stroke="#bfc0c0"/>
+<text x="656" y="56" fill="#4f5d75" data-role="number" data-step="oil">04</text><line x1="656" y1="76" x2="656" y2="112" stroke="#bfc0c0"/>
+<text x="832" y="56" fill="#4f5d75" data-role="number" data-step="reset">05</text><line x1="832" y1="76" x2="832" y2="112" stroke="#bfc0c0"/>
+</g>
+<g aria-hidden="true" fill="#f5f5f5" stroke-width="1">
+<circle cx="128" cy="156" r="36" fill="#f5f5f5" stroke="none"/><circle cx="128" cy="156" r="36" fill="#bf4520" stroke="#bf4520" data-role="medallion" data-step="read" data-focal="true" fill-opacity="0.08"/><circle cx="304" cy="156" r="36" stroke="#2d3142" data-role="medallion" data-step="output"/><circle cx="480" cy="156" r="36" stroke="#2d3142" data-role="medallion" data-step="wiring"/><circle cx="656" cy="156" r="36" stroke="#2d3142" data-role="medallion" data-step="oil"/><circle cx="832" cy="156" r="36" stroke="#2d3142" data-role="medallion" data-step="reset"/>
+</g>
+<g aria-hidden="true" fill="none" stroke="#2d3142" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+<g transform="translate(116 144)" stroke="#bf4520"><path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"/><path d="M21 21l-6 -6"/></g>
+<g transform="translate(292 144)"><path d="M5 7l5 5l-5 5"/><path d="M12 19l7 0"/></g>
+<g transform="translate(468 144)"><path d="M5 18a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M5 6a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M15 12a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M7 8l0 8"/><path d="M7 8a4 4 0 0 0 4 4h4"/></g>
+<g transform="translate(644 144)"><path d="M20 8.04l-12.122 12.124a2.857 2.857 0 1 1 -4.041 -4.04l12.122 -12.124"/><path d="M7 13h8"/><path d="M19 15l1.5 1.6a2 2 0 1 1 -3 0l1.5 -1.6"/><path d="M15 3l6 6"/></g>
+<g transform="translate(820 144)"><path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4"/><path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4"/></g>
+</g>
+<g font-family="'Geist', system-ui, sans-serif" text-anchor="middle">
+<text x="128" y="252" fill="#bf4520" font-size="12" font-weight="600">Read all faults</text>
+<text x="128" y="280" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">In 22 and in engine,</text>
+<text x="128" y="300" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">ABS/ESP and gateway</text>
+<text x="304" y="252" fill="#2d3142" font-size="12" font-weight="600">Output test</text>
+<text x="304" y="280" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">Final control diagnosis</text>
+<text x="304" y="300" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">in 22, tester secured</text>
+<text x="480" y="252" fill="#2d3142" font-size="12" font-weight="600">Power and plugs</text>
+<text x="480" y="280" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">Holder C fuses, C-pillar</text>
+<text x="480" y="300" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">earth, J492 + in-line plug</text>
+<text x="656" y="252" fill="#2d3142" font-size="12" font-weight="600">Coupling oil</text>
+<text x="656" y="280" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">Check the level with</text>
+<text x="656" y="300" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">the oil at 20-40 °C</text>
+<text x="832" y="252" fill="#2d3142" font-size="12" font-weight="600">Basic setting</text>
+<text x="832" y="280" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">After a new pump or</text>
+<text x="832" y="300" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">J492, or the fault stays</text>
+</g>
+<line x1="40" y1="324" x2="920" y2="324" stroke="#2d3142" stroke-width="0.8" stroke-opacity="0.10"/>
+<text x="40" y="344" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.18em">LEGEND</text>
+<circle cx="52" cy="364" r="8" fill="#f5f5f5" stroke="#2d3142"/><text x="68" y="368" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Step</text>
+<circle cx="132" cy="364" r="8" fill="#bf4520" stroke="#bf4520" fill-opacity="0.08"/><text x="148" y="368" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Start here</text>
+<text x="252" y="368" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif" font-style="italic">Find the cause with the tester before taking anything off.</text>
+      </svg>

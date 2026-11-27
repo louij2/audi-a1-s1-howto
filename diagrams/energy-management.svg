@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 552" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="energy-management-title energy-management-desc" id="energy-management-root">
+        <title id="energy-management-title">Energy management on start/stop cars</title>
+        <desc id="energy-management-desc">Gateway J533, address 19, is the LIN master for battery monitor J367, alternator C with its LIN regulator (12.2 to 15 V, fixed 14.3 V without LIN) and voltage stabiliser J532, and it runs recuperation and transport mode.</desc>
+        <defs>
+      <style>#energy-management-root { --color-paper:   #f5f5f5;
+      --color-ink:     #2d3142;
+      --color-muted:   #4f5d75;
+      --color-accent:  #bf4520;
+      --font-sans:     'Geist', system-ui, sans-serif;
+      --font-serif:    'Instrument Serif', 'Noto Serif', serif;
+      --font-mono:     'Geist Mono', ui-monospace, monospace; }
+      #energy-management-root { font-family: var(--font-sans); color: var(--color-ink); }
+      #energy-management-root .diagram-container { width: 100%; overflow-x: auto; }
+      @media print {
+#energy-management-root .diagram-container { overflow-x: visible; }
+}</style>
+          <marker id="energy-management-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+          <marker id="energy-management-arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#bf4520"/></marker>
+          <marker id="energy-management-arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+        </defs>
+        <rect width="100%" height="100%" fill="#f5f5f5"/>
+        <rect x="576" y="88" width="336" height="368" rx="8" fill="#2d3142" stroke="#2d3142" stroke-width="0.8" fill-opacity="0.02" stroke-opacity="0.10"/>
+        <rect x="588" y="92" width="156" height="12" rx="2" fill="#f5f5f5"/>
+        <text x="666" y="101" fill="#5a6580" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.14em">LIN BUS, J533 IS THE MASTER</text>
+        <path d="M 360,232 H 472 Q 480,232 480,224 V 168 Q 480,160 488,160 H 608" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#energy-management-arrow)"/>
+        <line x1="360" y1="272" x2="608" y2="272" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#energy-management-arrow)"/>
+        <path d="M 360,312 H 472 Q 480,312 480,320 V 376 Q 480,384 488,384 H 608" fill="none" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#energy-management-arrow)"/>
+        <rect x="394" y="212" width="44" height="12" rx="2" fill="#f5f5f5"/>
+        <text x="416" y="221" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">READS</text>
+        <rect x="496" y="252" width="80" height="12" rx="2" fill="#f5f5f5"/>
+        <text x="536" y="261" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">SETS VOLTAGE</text>
+        <rect x="80" y="192" width="280" height="160" rx="6" fill="#f5f5f5"/>
+        <rect x="80" y="192" width="280" height="160" rx="6" fill="#bf4520" stroke="#bf4520" stroke-width="1" fill-opacity="0.08"/>
+        <rect x="88" y="198" width="48" height="12" rx="2" fill="none" stroke="#bf4520" stroke-width="0.8" stroke-opacity="0.50"/>
+        <text x="112" y="207" fill="#bf4520" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">GATEWAY</text>
+        <text x="96" y="232" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif">J533 gateway</text>
+        <text x="96" y="248" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">energy management, address 19</text>
+        <rect x="96" y="268" width="72" height="12" rx="2" fill="none" stroke="#bf4520" stroke-width="0.8" stroke-opacity="0.50"/>
+        <text x="132" y="277" fill="#bf4520" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">RECUPERATION</text>
+        <text x="96" y="294" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">less charge on throttle, more on overrun</text>
+        <rect x="96" y="308" width="80" height="12" rx="2" fill="none" stroke="#bf4520" stroke-width="0.8" stroke-opacity="0.50"/>
+        <text x="136" y="317" fill="#bf4520" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">TRANSPORT MODE</text>
+        <text x="96" y="334" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace">comfort functions off in storage</text>
+        <rect x="608" y="120" width="272" height="80" rx="6" fill="#f5f5f5"/>
+        <rect x="608" y="120" width="272" height="80" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <rect x="616" y="126" width="48" height="12" rx="2" fill="none" stroke="#2d3142" stroke-width="0.8" stroke-opacity="0.40"/>
+        <text x="640" y="135" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">MONITOR</text>
+        <text x="744" y="159" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">J367 battery monitor</text>
+        <text x="744" y="175" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">current, voltage, temperature</text>
+        <text x="744" y="188" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">negative post, read via 19</text>
+        <rect x="608" y="232" width="272" height="80" rx="6" fill="#f5f5f5"/>
+        <rect x="608" y="232" width="272" height="80" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <rect x="616" y="238" width="28" height="12" rx="2" fill="none" stroke="#2d3142" stroke-width="0.8" stroke-opacity="0.40"/>
+        <text x="630" y="247" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">ALT</text>
+        <text x="744" y="271" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Alternator C</text>
+        <text x="744" y="287" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">LIN regulator, 12.2 to 15 V</text>
+        <text x="744" y="300" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">no LIN message: fixed 14.3 V</text>
+        <rect x="608" y="344" width="272" height="80" rx="6" fill="#f5f5f5"/>
+        <rect x="608" y="344" width="272" height="80" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <rect x="616" y="350" width="32" height="12" rx="2" fill="none" stroke="#2d3142" stroke-width="0.8" stroke-opacity="0.40"/>
+        <text x="632" y="359" fill="#2d3142" font-size="7" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.08em">STAB</text>
+        <text x="744" y="383" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">J532 voltage stabiliser</text>
+        <text x="744" y="399" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">holds 12 V for cluster, ABS,</text>
+        <text x="744" y="412" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">radio while the starter turns</text>
+        <line x1="40" y1="488" x2="920" y2="488" stroke="#2d3142" stroke-width="0.8" stroke-opacity="0.10"/>
+        <text x="40" y="504" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.18em">LEGEND</text>
+        <rect x="40" y="520" width="14" height="10" rx="2" fill="#bf4520" stroke="#bf4520" stroke-width="1" fill-opacity="0.08"/>
+        <text x="60" y="528" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Gateway: the brain</text>
+        <rect x="192" y="520" width="14" height="10" rx="2" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <text x="212" y="528" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">LIN helper</text>
+        <line x1="296" y1="525" x2="324" y2="525" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#energy-management-arrow)"/>
+        <text x="332" y="528" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">LIN command / read</text>
+      </svg>

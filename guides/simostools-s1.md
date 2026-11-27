@@ -5,6 +5,8 @@
 [SimosTools](https://play.google.com/store/apps/details?id=com.app.simostools) logs and flashes Simos 18 ECUs
 through an ESP32 BLE-to-ISO-TP bridge dongle. It has no S1 in its vehicle list, so set these by hand.
 
+![SimosTools on the phone talks Bluetooth LE to an ESP32 bridge dongle in the OBD socket, which reaches the Simos 18.1 engine ECU (mode 22 logging) and the gen 5 Haldex (DIDs) over the car's CAN bus](../diagrams/simostools-link.svg)
+
 ## Gearing (the two-final-drive trick)
 
 The S1's 6-speed manual has **two final drives**: 3.944 for gears 1-4 and 3.087 for gears 5-6. SimosTools only

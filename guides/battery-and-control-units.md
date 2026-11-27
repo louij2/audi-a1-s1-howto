@@ -25,6 +25,8 @@ On a boot-battery car:
 
 ## Jump-starting and charging
 
+![Boot battery layout: fuse holder SA with crash cut-off N253 on the positive post, aluminium main lead to the jump-start positive stud in the engine bay, J367 on the negative post earth cable, and an earth stud on the same engine-bay mounting](../diagrams/boot-battery-layout.svg)
+
 You never need to get at the boot battery to jump or charge. There are **remote terminals in the engine bay**:
 a positive stud with a flip-up cover and an earth stud, on the same mounting that holds the air cleaner
 housing. The launch material places them at the front left (it describes an LHD car), with an earth bolt near the
@@ -49,6 +51,8 @@ TL 82506 / VW 75073 specs.
 
 Order matters when reconnecting. Positive first, then earth. On cars with J367: **unplug the small J367
 connector, fit and tighten the earth clamp, then plug J367 back in.**
+
+![Battery swap in six steps: fit a like-for-like battery, positive first, earth with the J367 plug unplugged then plug it in, adapt a new battery in address 19, clear low-voltage faults, re-teach the windows and set the date in address 17 if lost](../diagrams/battery-swap-steps.svg)
 
 Things to do afterwards (from *Electrical system*, Rep. gr. 27, Battery):
 
@@ -77,6 +81,8 @@ The brain is the **gateway J533**. It is the LIN master for three helpers:
   regulator instead.
 - **Voltage stabiliser J532** (under the front passenger seat): during cranking it holds 12 V for a few consumers
   (cluster, ABS unit, radio and similar), so they don't reset when the starter drags the battery down.
+
+![Energy management: gateway J533 (address 19) is the LIN master for battery monitor J367, alternator C with a LIN regulator (12.2 to 15 V, fixed 14.3 V without LIN) and voltage stabiliser J532, and runs recuperation and transport mode](../diagrams/energy-management.svg)
 
 What J533 does with it: it lowers the charge voltage under throttle (the battery carries the load), and raises it
 on the overrun to recharge (brake energy recuperation). It also handles **transport mode** (address 19), which

@@ -7,6 +7,8 @@ it, see [SimosTools setup](simostools-s1.md).
 
 ## How the drive gets to the back
 
+![Drive path from the engine and 0A8 gearbox (which also drives the front wheels) through the bevel box, one-piece propshaft and Haldex gen 5 coupling to the 0BR rear diff and rear wheels, with the gearbox, bevel box, coupling and rear diff each on its own oil fill](../diagrams/s1-driveline.svg)
+
 1. Engine and clutch into the **0A8** gearbox. On the S1 its code letters are PRY. It has two front final drive ratios:
    3.944 for gears 1-4 and 3.087 for 5th, 6th and reverse.
 2. A **bevel box** (the power take-off) mounted on the gearbox's flank sends drive back towards the tunnel. It has
@@ -34,6 +36,8 @@ and no filter to service, so the pressure that closes the coupling comes straigh
 pump V181, run by J492. The manuals in our set don't go deeper into the control strategy than that.
 
 ## The control unit (J492) and its wiring
+
+![J492 takes engine ECU and ABS/ESP data over powertrain CAN through the J533 gateway, drives pump V181 whose pressure closes the coupling clutch, and is fed from two fuses in holder C (terminals 30 and 15) with its earth at the left C-pillar](../diagrams/haldex-control.svg)
 
 - **Where:** on the nose of the coupling, at the rear final drive, held by two small bolts (9.5 Nm). The pump's own
   plug goes into J492.
@@ -94,6 +98,8 @@ The manual's rule is to find the cause with the tester (guided fault finding, se
 3. Check the two **fuses** in holder C, the **left C-pillar earth**, the plug on J492 and the in-line connector.
 4. Check the **coupling oil level** at the right temperature (see above).
 5. Replacing the pump or J492? Do the basic setting or replacement routine above, or the fault will stay.
+
+![The five-step 4WD fault order: read faults in 22, engine, ABS/ESP and gateway; run the output test; check fuses, earth and plugs; check the coupling oil level; do the basic setting after a new pump or J492](../diagrams/haldex-fault-order.svg)
 
 ## Propshaft and rear diff, at a high level
 

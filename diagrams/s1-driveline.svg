@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 372" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="s1-driveline-title s1-driveline-desc" id="s1-driveline-root">
+        <title id="s1-driveline-title">S1 quattro driveline and its four oil fills</title>
+        <desc id="s1-driveline-desc">Drive runs from the engine and clutch into the 0A8 gearbox, which drives the front wheels and a bevel box; a one-piece propshaft takes drive to the Haldex gen 5 coupling on the 0BR rear diff and on to the rear wheels, with the gearbox, bevel box (0.9 l), coupling (0.70 l at a change) and rear diff (0.95 l) each on their own oil.</desc>
+        <defs>
+      <style>#s1-driveline-root { --color-paper:   #f5f5f5;
+      --color-ink:     #2d3142;
+      --color-muted:   #4f5d75;
+      --color-accent:  #bf4520;
+      --font-sans:     'Geist', system-ui, sans-serif;
+      --font-serif:    'Instrument Serif', 'Noto Serif', serif;
+      --font-mono:     'Geist Mono', ui-monospace, monospace; }
+      #s1-driveline-root { font-family: var(--font-sans); color: var(--color-ink); }
+      #s1-driveline-root .diagram-container { width: 100%; overflow-x: auto; }
+      @media print {
+#s1-driveline-root .diagram-container { overflow-x: visible; }
+}</style>
+<marker id="s1-driveline-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+<marker id="s1-driveline-arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#bf4520"/></marker>
+<marker id="s1-driveline-arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+<marker id="s1-driveline-arrow-start" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto-start-reverse"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+<marker id="s1-driveline-arrow-link-start" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto-start-reverse"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+        </defs>
+        <rect width="100%" height="100%" fill="#f5f5f5"/>
+<rect x="192" y="40" width="104" height="40" rx="4" fill="#2d3142" stroke="#4f5d75" stroke-width="1" stroke-dasharray="3,2" fill-opacity="0.05"/>
+<text x="244" y="55" fill="#5a6580" font-size="8" font-weight="500" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.14em">OIL FILL 1</text>
+<text x="244" y="70" fill="#2d3142" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">own oil</text>
+<line x1="244" y1="80" x2="244" y2="108" stroke="#4f5d75" stroke-width="1" stroke-dasharray="2,2"/>
+<rect x="340" y="40" width="104" height="40" rx="4" fill="#2d3142" stroke="#4f5d75" stroke-width="1" stroke-dasharray="3,2" fill-opacity="0.05"/>
+<text x="392" y="55" fill="#5a6580" font-size="8" font-weight="500" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.14em">OIL FILL 2</text>
+<text x="392" y="70" fill="#2d3142" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">0.9 l</text>
+<line x1="392" y1="80" x2="392" y2="108" stroke="#4f5d75" stroke-width="1" stroke-dasharray="2,2"/>
+<rect x="636" y="40" width="132" height="40" rx="4" fill="#bf4520" stroke="#bf4520" stroke-width="1" stroke-dasharray="3,2" fill-opacity="0.08"/>
+<text x="702" y="55" fill="#bf4520" font-size="8" font-weight="500" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.14em">OIL FILL 3</text>
+<text x="702" y="70" fill="#2d3142" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">0.70 l at a change</text>
+<line x1="702" y1="80" x2="702" y2="108" stroke="#bf4520" stroke-width="1" stroke-dasharray="2,2"/>
+<rect x="812" y="40" width="104" height="40" rx="4" fill="#2d3142" stroke="#4f5d75" stroke-width="1" stroke-dasharray="3,2" fill-opacity="0.05"/>
+<text x="864" y="55" fill="#5a6580" font-size="8" font-weight="500" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.14em">OIL FILL 4</text>
+<text x="864" y="70" fill="#2d3142" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">0.95 l gear oil</text>
+<line x1="864" y1="80" x2="864" y2="108" stroke="#4f5d75" stroke-width="1" stroke-dasharray="2,2"/>
+<line x1="152" y1="144" x2="188" y2="144" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#s1-driveline-arrow)"/>
+<line x1="300" y1="144" x2="336" y2="144" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#s1-driveline-arrow)"/>
+<line x1="448" y1="144" x2="484" y2="144" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#s1-driveline-arrow)"/>
+<line x1="596" y1="144" x2="632" y2="144" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#s1-driveline-arrow)"/>
+<line x1="772" y1="144" x2="808" y2="144" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#s1-driveline-arrow)"/>
+<line x1="244" y1="180" x2="244" y2="236" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#s1-driveline-arrow)"/>
+<line x1="864" y1="180" x2="864" y2="236" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#s1-driveline-arrow)"/>
+<rect x="252" y="202" width="64" height="12" rx="2" fill="#f5f5f5"/>
+<text x="284" y="211" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">FRONT AXLE</text>
+<rect x="872" y="202" width="60" height="12" rx="2" fill="#f5f5f5"/>
+<text x="902" y="211" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">REAR AXLE</text>
+<rect x="40" y="108" width="112" height="72" rx="6" fill="#f5f5f5"/>
+<rect x="40" y="108" width="112" height="72" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="96" y="135" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Engine</text>
+<text x="96" y="151" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">CWZA</text>
+<text x="96" y="164" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">+ clutch</text>
+<rect x="188" y="108" width="112" height="72" rx="6" fill="#f5f5f5"/>
+<rect x="188" y="108" width="112" height="72" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="244" y="135" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Gearbox 0A8</text>
+<text x="244" y="151" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">code PRY</text>
+<text x="244" y="164" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">+ front diff</text>
+<rect x="336" y="108" width="112" height="72" rx="6" fill="#f5f5f5"/>
+<rect x="336" y="108" width="112" height="72" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="392" y="142" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Bevel box</text>
+<text x="392" y="158" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">power take-off</text>
+<rect x="484" y="108" width="112" height="72" rx="6" fill="#f5f5f5"/>
+<rect x="484" y="108" width="112" height="72" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="540" y="135" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Propshaft</text>
+<text x="540" y="151" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">one piece</text>
+<text x="540" y="164" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">centre bearing</text>
+<rect x="632" y="108" width="140" height="72" rx="6" fill="#f5f5f5"/>
+<rect x="632" y="108" width="140" height="72" rx="6" fill="#bf4520" stroke="#bf4520" stroke-width="1" fill-opacity="0.08"/>
+<text x="702" y="135" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Haldex coupling</text>
+<text x="702" y="151" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">gen 5</text>
+<text x="702" y="164" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">sets rear torque</text>
+<rect x="808" y="108" width="112" height="72" rx="6" fill="#f5f5f5"/>
+<rect x="808" y="108" width="112" height="72" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<text x="864" y="135" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Rear diff</text>
+<text x="864" y="151" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">final drive 0BR</text>
+<text x="864" y="164" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">27:17</text>
+<rect x="188" y="236" width="112" height="48" rx="6" fill="#f5f5f5"/>
+<rect x="188" y="236" width="112" height="48" rx="6" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.03" stroke-opacity="0.30"/>
+<text x="244" y="264" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Front wheels</text>
+<rect x="808" y="236" width="112" height="48" rx="6" fill="#f5f5f5"/>
+<rect x="808" y="236" width="112" height="48" rx="6" fill="#2d3142" stroke="#2d3142" stroke-width="1" fill-opacity="0.03" stroke-opacity="0.30"/>
+<text x="864" y="264" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Rear wheels</text>
+<line x1="40" y1="312" x2="920" y2="312" stroke="#2d3142" stroke-width="0.8" stroke-opacity="0.10"/>
+<text x="40" y="328" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.18em">LEGEND</text>
+<rect x="40" y="340" width="14" height="10" rx="2" fill="#bf4520" stroke="#bf4520" stroke-width="1" fill-opacity="0.08"/>
+<text x="60" y="348" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Haldex coupling (focal)</text>
+<rect x="196" y="340" width="14" height="10" rx="2" fill="#2d3142" stroke="#4f5d75" stroke-width="1" stroke-dasharray="3,2" fill-opacity="0.05"/>
+<text x="216" y="348" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Separate oil fill, own drain and filler</text>
+<line x1="424" y1="345" x2="452" y2="345" stroke="#4f5d75" stroke-width="1.2" marker-end="url(#s1-driveline-arrow)"/>
+<text x="460" y="348" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif">Drive</text>
+<text x="560" y="348" fill="#4f5d75" font-size="8.5" font-family="'Geist', system-ui, sans-serif" font-style="italic">Capacities as the guide gives them; the gearbox capacity isn't stated.</text>
+      </svg>

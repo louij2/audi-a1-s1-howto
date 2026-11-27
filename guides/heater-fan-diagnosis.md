@@ -11,6 +11,8 @@ sink, behind the glove box) switches the current → the fan motor **V2**. Power
 load-shedding feed (terminal X). Work through it in this order. Each step rules out a part of the chain without
 taking anything apart.
 
+![The fan chain: Climatronic J255 asks for a speed, final stage J126 switches current to fan motor V2, and J126 is fed from the 40 A fuse through the terminal X / J59 load-shedding feed, which the body control module can cut; J126 is the usual failure.](../diagrams/heater-fan-chain.svg)
+
 ## 1. Read what J255 is asking for
 
 VCDS → 08 → Measuring values (Advanced measuring values):
@@ -57,6 +59,10 @@ Glove box out (see [the removal guide](cabin-filter-glovebox-blower.md)), then:
 No meter? J126 is the usual failure on these cars. Order by VIN.
 
 After replacing either part: VCDS 08 → clear faults → **basic setting** → output test.
+
+Steps 1-4 as one decision flow:
+
+![Diagnosis flow: specified value follows the panel but actual is 0 V, then check the 40 A fuse, then if the heated rear window and seats are dead too suspect terminal X, J59 or the battery, otherwise 12 V at the motor plug with no spin means motor V2 and no output from a powered J126 means J126.](../diagrams/heater-fan-diagnosis-flow.svg)
 
 ## Official references
 

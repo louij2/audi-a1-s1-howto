@@ -20,6 +20,8 @@ How to read it:
 | Driver's side dash end | brown | 11 | 10 A | Heating / A/C (terminal 30 feed, Climatronic J255) |
 | Passenger side dash end | brown | 2 | 10 A | A/C / heater control panel |
 
+![RHD dash fuse holders: the driver's end has the 40 A blower fuse in black row 2 (holder C) and the 10 A heating and A/C fuse in brown row 11; the passenger end has the 10 A control panel fuse in brown row 2; an LHD car has the same rows with the ends mirrored.](../diagrams/fuse-holders-rhd.svg)
+
 The common mistake: checking a small 10 A fuse for a dead fan. The fan's power is the **40 A black-row fuse**.
 
 This table is only what we checked by hand. For anything else, use the chart for your car's build date and

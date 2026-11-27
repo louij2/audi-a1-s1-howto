@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="glovebox-access-order-title glovebox-access-order-desc" id="glovebox-access-order-root">
+        <title id="glovebox-access-order-title">What comes out, in order, behind the glove box</title>
+        <desc id="glovebox-access-order-desc">Removal order from the front: dash end cap, glove box, J431 and J518 on some cars, fan motor V2, then final stage J126 through the fan opening; the cabin filter is a separate shallow job through a slot cover with the glove box left in, and it also comes out before J126.</desc>
+        <defs>
+      <style>#glovebox-access-order-root { --color-paper:   #f5f5f5;   
+      --color-ink:     #2d3142;   
+      --color-muted:   #4f5d75;   
+      --color-accent:  #bf4520;   
+      --font-sans:     'Geist', system-ui, sans-serif;
+      --font-serif:    'Instrument Serif', 'Noto Serif', 'Noto Serif KR', serif;
+      --font-mono:     'Geist Mono', ui-monospace, monospace; }
+      #glovebox-access-order-root { font-family: var(--font-sans); color: var(--color-ink); }
+      #glovebox-access-order-root .diagram-container { width: 100%; overflow-x: auto; }
+      @media print {
+#glovebox-access-order-root .diagram-container { overflow-x: visible; }
+}</style>
+          <marker id="glovebox-access-order-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#4f5d75"/></marker>
+          <marker id="glovebox-access-order-arrow-accent" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#bf4520"/></marker>
+          <marker id="glovebox-access-order-arrow-link" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0, 8 3, 0 6" fill="#2e5aa8"/></marker>
+        </defs>
+
+        <rect width="100%" height="100%" fill="#f5f5f5"/>
+
+        <!-- Eyebrows -->
+        <text x="120" y="120" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">GLOVE BOX JOB · REMOVE IN THIS ORDER</text>
+        <text x="704" y="120" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">SEPARATE, SHALLOW JOB</text>
+
+        <!-- Direction column -->
+        <text x="56" y="128" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">FRONT</text>
+        <line x1="80" y1="136" x2="80" y2="448" stroke="#2d3142" stroke-width="1" stroke-opacity="0.30"/>
+        <polygon points="76,448 84,448 80,456" fill="#4f5d75"/>
+        <text x="48" y="472" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">DEEPEST</text>
+
+        <!-- Connector: filter also out for J126 (drawn before nodes) -->
+        <path d="M 876,200 V 416 Q 876,424 868,424 H 640" fill="none" stroke="#4f5d75" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#glovebox-access-order-arrow)"/>
+        <rect x="792" y="302" width="76" height="12" rx="2" fill="#f5f5f5"/>
+        <text x="830" y="311" fill="#5a6580" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle" letter-spacing="0.06em">OUT FOR J126</text>
+
+        <!-- Layer stack -->
+        <rect x="120" y="136" width="520" height="64" fill="#ffffff"/>
+        <text x="140" y="171" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">01</text>
+        <text x="184" y="173" fill="#2d3142" font-size="14" font-weight="600" font-family="'Geist', system-ui, sans-serif">Dash end cap</text>
+        <text x="620" y="171" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">passenger side · fuse cover</text>
+        <line x1="120" y1="200" x2="640" y2="200" stroke="#2d3142" stroke-width="1" stroke-opacity="0.12"/>
+        <rect x="120" y="200" width="520" height="64" fill="#ffffff"/>
+        <text x="140" y="235" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">02</text>
+        <text x="184" y="237" fill="#2d3142" font-size="14" font-weight="600" font-family="'Geist', system-ui, sans-serif">Glove box</text>
+        <text x="620" y="235" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">4 bolts · unplug lamp, E224</text>
+        <line x1="120" y1="264" x2="640" y2="264" stroke="#2d3142" stroke-width="1" stroke-opacity="0.12"/>
+        <rect x="120" y="264" width="520" height="64" fill="#ffffff"/>
+        <text x="140" y="299" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">03</text>
+        <text x="184" y="301" fill="#2d3142" font-size="14" font-weight="600" font-family="'Geist', system-ui, sans-serif">J431 / J518</text>
+        <text x="620" y="299" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">some cars only · move aside</text>
+        <line x1="120" y1="328" x2="640" y2="328" stroke="#2d3142" stroke-width="1" stroke-opacity="0.12"/>
+        <rect x="120" y="328" width="520" height="64" fill="#ffffff"/>
+        <text x="140" y="363" fill="#4f5d75" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em">04</text>
+        <text x="184" y="365" fill="#2d3142" font-size="14" font-weight="600" font-family="'Geist', system-ui, sans-serif">Fan motor V2</text>
+        <text x="620" y="363" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">one bolt via the duct opening</text>
+        <rect x="120" y="136" width="520" height="320" fill="none" stroke="#4f5d75" stroke-width="1"/>
+        <rect x="120" y="392" width="520" height="64" fill="#bf4520" fill-opacity="0.08"/>
+        <rect x="120" y="392" width="520" height="64" fill="none" stroke="#bf4520" stroke-width="1"/>
+        <text x="140" y="427" fill="#bf4520" font-size="8" font-family="'Geist Mono', ui-monospace, monospace" letter-spacing="0.14em" font-weight="600">05</text>
+        <text x="184" y="429" fill="#2d3142" font-size="14" font-weight="600" font-family="'Geist', system-ui, sans-serif">Final stage J126</text>
+        <text x="620" y="427" fill="#bf4520" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="end">out through the fan opening</text>
+
+        <!-- Filter (separate job) -->
+        <rect x="704" y="136" width="216" height="64" rx="6" fill="#f5f5f5"/>
+        <rect x="704" y="136" width="216" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+        <text x="812" y="164" fill="#2d3142" font-size="12" font-weight="600" font-family="'Geist', system-ui, sans-serif" text-anchor="middle">Cabin filter</text>
+        <text x="812" y="180" fill="#4f5d75" font-size="9" font-family="'Geist Mono', ui-monospace, monospace" text-anchor="middle">slot cover · 2 sliders</text>
+        <text x="704" y="228" fill="#2d3142" font-size="14" font-style="italic" font-family="'Instrument Serif', serif">glove box stays in</text>
+
+        <!-- Caption -->
+        <text x="120" y="508" fill="#4f5d75" font-size="14" font-style="italic" font-family="'Instrument Serif', serif">J126 sits deepest: the fan motor and the cabin filter both come out first.</text>
+      </svg>

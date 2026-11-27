@@ -2,6 +2,8 @@
 
 **Applies to:** All A1 / S1 8X, LHD and RHD (the parts sit on the passenger side either way).
 
+![Removal order behind the glove box: dash end cap, glove box, J431 and J518 on some cars, fan motor V2, then J126 out through the fan opening; the cabin filter is a separate shallow job through a slot cover with the glove box left in, and it also comes out before J126.](../diagrams/glovebox-access-order.svg)
+
 ## Cabin filter: the glove box stays in
 
 The filter slides out of a slot under the passenger side of the dash. You don't need to remove the glove box.
